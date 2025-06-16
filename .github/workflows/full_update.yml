@@ -9,8 +9,8 @@ on:
         description: "Should this build skip the docker image build?"
         default: false
 
-  schedule:
-    - cron: '12 5 1 * *' # At 05:12 on day-of-month 1.
+  #schedule:
+  #  - cron: '12 5 1 * *' # At 05:12 on day-of-month 1.
 
 
 jobs:
